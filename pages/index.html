@@ -242,7 +242,7 @@
         </ul>
       </div>
       <div class="overflow-hidden">
-        <div class="container">
+        <div class="container-fluid vw-100">
           <div class="swiper mySwiper mb-12 ms-auto d-none d-md-block">
             <ul class="swiper-wrapper list-unstyled mb-5">
               <li class="swiper-slide">
@@ -299,9 +299,11 @@
               </li>
             </ul>
           </div>
-          <div class="d-none d-md-flex align-items-center mb-17">
-            <div class="swiper-scrollbar position-static w-50 me-6 py-1"></div>
-            <p class="text-white">SCROLL</p>
+          <div class="container">
+            <div class="d-none d-md-flex align-items-center mb-17">
+              <div class="swiper-scrollbar position-static w-50 me-6 py-1"></div>
+              <p class="text-white">SCROLL</p>
+            </div>
           </div>
         </div>
       </div>
@@ -357,7 +359,7 @@
                 <div>
                   <p>知識型</p>
                   <div class="d-lg-flex justify-content-between">
-                    <p>學術領導/知識分享/智能問答</p>
+                    <p class="mb-3">學術領導/知識分享/智能問答</p>
                     <a href="#" class="d-flex align-items-center stretched-link"><img src="../assets/images/arrow.png" class="img-fluid" alt="arrow-img" width="151"></a>
                   </div>
                 </div>
@@ -377,7 +379,7 @@
                 <div>
                   <p>娛樂型</p>
                   <div class="d-lg-flex justify-content-between">
-                    <p>音樂播放/語音互動/遊戲陪伴</p>
+                    <p class="mb-3">音樂播放/語音互動/遊戲陪伴</p>
                     <a href="#" class="d-flex align-items-center stretched-link "><img src="../assets/images/arrow.png" class="img-fluid" alt="arrow-img" width="151"></a>
                   </div>
                 </div>
@@ -397,7 +399,7 @@
                 <div>
                   <p>生活型</p>
                   <div class="d-lg-flex justify-content-between">
-                    <p>健康提醒/日程安排/智能家居</p>
+                    <p class="mb-3">健康提醒/日程安排/智能家居</p>
                     <a href="#" class="d-flex align-items-center  stretched-link"><img src="../assets/images/arrow.png" class="img-fluid" alt="arrow-img" width="151"></a>
                   </div>
                 </div>
@@ -417,7 +419,7 @@
                 <div>
                   <p>情感型</p>
                   <div class="d-lg-flex justify-content-between">
-                    <p>情感識別/心情分析/心靈支持</p>
+                    <p class="mb-3">情感識別/心情分析/心靈支持</p>
                     <a href="#" class="d-flex align-items-center stretched-link"><img src="../assets/images/arrow.png" class="img-fluid" alt="arrow-img" width="151"></a>
                   </div>
                 </div>
@@ -440,6 +442,7 @@
         freeMode: true,
         cssMode: true,
         mousewheel: true,
+        centeredSlides: true,
         scrollbar: {
           el: ".swiper-scrollbar",
           draggable: true
