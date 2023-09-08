@@ -19397,6 +19397,10 @@ img {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 48;
 }
 
+.carousel .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
 .swiper-slide {
   width: 416px;
   height: 416px;
@@ -19524,6 +19528,20 @@ img {
 .bg-hover:hover {
   background: transparent;
   transition: all 1.2s;
+}
+
+.link-hover {
+  color: #000;
+}
+.link-hover:hover {
+  color: #9747FF;
+}
+
+.link-light-hover {
+  color: #FFFFFF;
+}
+.link-light-hover:hover {
+  color: #9747FF;
 }
 
 .shadow-hover {
