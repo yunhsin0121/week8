@@ -1,0 +1,15 @@
+.bg-linear-y-purple{
+    @include gradient-y($primary-300, $primary-700);
+    @media (min-width: 992px) {
+      background-image: none;
+    }
+}
+.bg-linear-circle-primary-1{
+    @include radial-gradient(#300871, #000) ;
+}
+.bg-linear-circle-primary-2{
+    @include radial-gradient(#28085C, #000) ;
+}
+.bg-linear-circle-dark{
+    @include radial-gradient(#000, #28085C) ;
+}

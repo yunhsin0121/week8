@@ -1,0 +1,16 @@
+.swiper-slide{
+    width: 416px;
+    height: 416px;
+    @media (max-widt:991px) {
+        width: 351px;
+        height: 351px;
+    }
+}
+.swiper-scrollbar {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.swiper-scrollbar-drag {
+    background-color: white!important;
+    height: 8px;
+    top:-4px;
+}

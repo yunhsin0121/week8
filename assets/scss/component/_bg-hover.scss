@@ -1,0 +1,8 @@
+.bg-hover{
+    background: #000;
+    transition: all 1.2s;
+    &:hover{
+        background: transparent;
+        transition: all 1.2s;
+    }
+}

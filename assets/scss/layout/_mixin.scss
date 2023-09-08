@@ -1,0 +1,10 @@
+@mixin gradient-y($start-color: $primary, $end-color: $secondary) {
+    background-image: linear-gradient(to bottom, $start-color, $end-color);
+}
+@mixin gradient-x($start-color: $primary, $end-color: $secondary) {
+    background-image: linear-gradient(to right, $start-color, $end-color);
+}
+@mixin radial-gradient($start-color: $primary, $end-color: $secondary) {
+    background-image: radial-gradient(50% 50% at 50% 50%, $start-color 0%, $end-color 100%);
+}
+ 

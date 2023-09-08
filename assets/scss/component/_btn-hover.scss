@@ -1,0 +1,12 @@
+.btn-hover{
+    color: white;
+    background-color: black;
+    &:hover{
+        color: #7000FF;
+        background-color: white;
+    }
+}
+.btn-hover.active{
+    color: black;
+    background-color: white;
+}

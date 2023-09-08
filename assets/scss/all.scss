@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Siemreap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap');
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
-
-
-@import './layout/header.scss';
-@import './layout/footer.scss';
-
-
-@import './pages/index.scss';
-
-@import "../../node_modules/bootstrap";
+@import './utils/custom-colors';
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import './layout/base';
+@import './layout/mixin';
+@import './component/font';
+@import './component/navbar-border';
+@import './component/bg-linear';
+@import './component/animation-circle';
+@import './component/deco-line';
+@import './component/material-symbols';
+@import './component/swiper-scollbar';
+@import './component/deco-text';
+@import './component/link-underline';
+@import './component/btn-hover';
+@import './component/bg-hover';
+@import './component/shadow-hover';
+@import './utils/navbar';
+@import './utils/utilities';
+@import "../../node_modules/bootstrap/scss/utilities/api";

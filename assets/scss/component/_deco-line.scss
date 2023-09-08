@@ -1,0 +1,21 @@
+.deco-line-white{
+    width: 416px;
+    height: 1px;
+    background-color: white;
+}
+.deco-pill-line-white{
+    width: 124px;
+    height: 12px;
+    background-color: white;
+    border-radius: 25px;
+}
+.deco-line-gradient-primary-dark{
+    width: 100%;
+    height: 40px;
+    @include gradient-x($primary-300, $primary-700);
+}
+.deco-line-gradient-dark-primary{
+    width: 100%;
+    height: 40px;
+    @include gradient-x($primary-700, $primary-300);
+}

@@ -1,0 +1,38 @@
+.deco-text{
+    color: #FFFFFF0A;
+    font-size: 400px;
+    font-family: 'Shrikhand',sans-serif;;
+    left: -25%;
+    @media (max-width:767px) {
+        font-size: 128px;
+        left: -50%;
+    }
+}
+.deco-number{
+    font-size: 400px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    @media (max-width:1650px) {
+        font-size: 300px;
+    }
+    @media (max-width:1276px) {
+        font-size: 250px;
+    }
+    @media (max-width:1156px) {
+        font-size: 200px;
+    }
+    @media (max-width:991px) {
+        font-size: 350px;
+    }
+    @media (max-width:767px) {
+        font-size: 300px;
+    }
+    @media (max-width:658px) {
+        font-size: 200px;
+    }
+    @media (max-width:540px) {
+        font-size: 150px;
+    }
+    @media (max-width:480px) {
+        font-size: 128px;
+    }
+}
