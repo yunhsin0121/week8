@@ -10,3 +10,9 @@
         color: #9747FF;
     }
 }
+.link-light-to-dark-hover{
+    color: #FFFFFF;
+    &:hover{
+        color: #000;
+    }
+}

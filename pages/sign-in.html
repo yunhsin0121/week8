@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <title>登入</title>
+    </head>
+    <body>
+        <%- include('./layout/header'); -%>
+        <section class="bg-linear-circle-primary-2 pt-16 pb-16">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 class="fw-bold fs-3 ls-30 text-light pt-14 pt-lg-19" data-aos="fade-up">登入</h2>
+                    </div>
+                    <div class="col-lg-4 pt-lg-14">
+                        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/circle.png?raw=true" class="animation-circle img-fluid d-block mx-auto mb-8" alt="logo-image" data-aos="fade-up">
+                        <h3 class="font-shrikhand fs-4 text-light text-center mb-9" data-aos="fade-up">ALPHABOX+</h3>
+                        <button class="btn btn-light-hover rounded-pill w-100 d-flex align-items-center justify-content-center fw-light mb-5" data-aos="fade-up"><img src="../assets/images/Apple Icon.png" alt="apple-icon">Continue with Apple</button>
+                        <button class="btn btn-light-hover rounded-pill w-100 d-flex align-items-center justify-content-center fw-light" data-aos="fade-up"><img src="../assets/images/Google Icon.png" alt="google-icon">Continue with Google</button>
+                        <div class="d-flex justify-content-center align-items-center py-11" data-aos="fade-up">
+                            <div class="deco-line-white bg-secondary"></div>
+                            <span class="text-light mx-1">or</span>
+                            <div class="deco-line-white bg-secondary"></div>
+                        </div>
+                        <form action="#" class="needs-validation" novalidate data-aos="fade-up">
+                            <div class="form-floating mb-2 mb-md-5">
+                                <input type="email" class="form-control" name="sign-up-email" id="sign-up-email" placeholder="EMAIL" required>
+                                <label for="sign-up-email" class="text-primary-600 fw-bold">EMAIL</label>
+                            </div>
+                            <div class="form-floating mb-2 mb-md-5">
+                                <input type="password" class="form-control" name="sign-up-password" id="sign-up-password" placeholder="密碼" required>
+                                <label for="sign-up-password" class="text-primary-600 fw-bold">密碼</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary-400 py-2 mb-2 d-flex align-items-center justify-content-center w-100"><span class="material-symbols-outlined me-1">point_scan</span>建立帳號</button>
+                            <div class="d-flex justify-content-end">
+                                <a href="sign-up.html" class="link-light-hover text-decoration-underline fw-light">忘記密碼</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <%- include('./layout/footer'); -%>
+        <script type="module" src="../main.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+
+              form.classList.add('was-validated')
+            }, false)
+          })
+      })()
+        </script>
+    </body>
+</html>

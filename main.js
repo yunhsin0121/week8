@@ -1,6 +1,5 @@
 import './assets/scss/all.scss';
 import 'bootstrap/dist/js/bootstrap.min.js';
-
 // window.bootstrap = bootstrap;//引入bootstrap方可js 控制       
 // const myCarousel = document.querySelector("#carouselExample");
 // const carousel = new bootstrap.Carousel(myCarousel, {
