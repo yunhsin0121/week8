@@ -6,6 +6,14 @@
        rotate:(360deg);
     }
 }
+@-webkit-keyframes circle{
+    0%{
+       rotate:(0deg);
+    }
+    100%{
+       rotate:(360deg);
+    }
+}
 .animation-circle{
     width: 196px;
     animation-name: circle;
