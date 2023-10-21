@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+        <title>登入</title>
+      <script type="module" crossorigin src="/week8/assets/bootstrap.min-2d23132e.js"></script>
+      <link rel="stylesheet" href="/week8/assets/bootstrap-da3f7780.css">
+    </head>
+    <body>
+        <div class="position-fixed w-100 z-index-99">
+  <div class="navbar-border position-absolute bg-white start-0 end-0 bottom-0"></div>
+  <nav class="navbar navbar-expand-lg bg-primary-400 py-7">
+    <div class="container">
+      <a href="index.html"><h1 class="navbar-brand font-shrikhand fs-5 fs-lg-4 link-light">ALPHABOX+</h1></a>
+      <div class="navbar-dropdown position-lg-static position-absolute start-0 end-0 flex-lg-grow-1">
+        <div class="collapse navbar-collapse bg-linear-y-purple border-bottom border-light border-bottom-lg-0" id="navbar-content">
+          <ul class="navbar-nav mx-auto pt-8 pt-lg-0 w-100 w-lg-50 justify-content-between align-items-center">
+            <li class="nav-item mb-1 mb-lg-0 text-center w-100 w-lg-17">
+              <a class="nav-link link-light-to-dark-hover d-block" href="diane-product.html">產品</a>
+            </li>
+            <li class="nav-item mb-1 mb-lg-0 text-center w-100 w-lg-28">
+              <a class="nav-link link-light-to-dark-hover d-block" href="about-us.html">關於我們</a>
+            </li>
+            <li class="nav-item mb-1 mb-lg-0 text-center w-100 w-lg-28">
+              <a class="nav-link link-light-to-dark-hover d-block" href="news.html">最新消息</a>
+            </li>
+            <li class="nav-item mb-1 mb-lg-0 text-center w-100 w-lg-15">
+              <a class="nav-link link-light-to-dark-hover d-block" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item mb-1 mb-lg-0 text-center w-100 w-lg-28">
+              <a class="nav-link link-light-to-dark-hover d-block" href="contact-us.html">聯絡我們</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-between align-items-center">
+            <li class="nav-item mb-1 mb-lg-0 w-100 text-center">
+              <a class="nav-link link-light-to-dark-hover d-block px-3" href="sign-up.html">註冊</a>
+            </li>
+            <li class="nav-item mb-1 mb-lg-0 w-100 text-center me-lg-7">
+              <a class="nav-link link-light-to-dark-hover d-block px-3" href="sign-in.html">登入</a>
+            </li>
+          </ul>
+          <div class="pb-8 pb-lg-0">
+            <a class="btn btn-light-hover d-flex align-items-center justify-content-center py-2 px-4 d-inline-block" href="#">
+              <span class="material-symbols-outlined me-1 ">point_scan</span>
+              訂閱
+            </a>
+          </div>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="material-symbols-outlined fs-4 text-light border-0">menu</span>
+      </button>
+    </div>
+  </nav>
+</div>        <section class="bg-linear-circle-primary-2 pt-16 pb-16">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2 class="fw-bold fs-3 ls-30 text-light pt-14 pt-lg-19" data-aos="fade-up">登入</h2>
+                    </div>
+                    <div class="col-lg-4 pt-lg-14">
+                        <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/circle.png?raw=true" class="animation-circle img-fluid d-block mx-auto mb-8" alt="logo-image" data-aos="fade-up">
+                        <h3 class="font-shrikhand fs-4 text-light text-center mb-9" data-aos="fade-up">ALPHABOX+</h3>
+                        <button class="btn btn-light-hover rounded-pill w-100 d-flex align-items-center justify-content-center fw-light mb-5" data-aos="fade-up"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG8SURBVHgB7davTiRBEAbwr3rYxVzuzxvwAHc727nlLnfmLgGJIQQJAYPHEgSEZ0BhwKLAolgCIcCGMUtIUGMwhBAQCNiZKnoAgUBQPUMw/TO7k8xkvlR3VQ8QBEEQBGUQ3sF+cjpQN705EYy3mo1vKKEPFTs47sYR9bZduK/uMkVJBhXrM7zhfopwIMEiSqo04FGS/BdgwP29FpHZn7axipIqXeJI5IwhUxF401p7jQp4N0nRCDXK5gkyxIIbQ0gypuWI786p1j/jKjjmbvshoJOIsONCL8RxfAElr4BJtzuYZ7yF5732RmkkudVWVr3EnU7nC2e8Dl04uCq3kee3UFIHpKg++twIGukv25iCB3UXCz3uLZUy48ZjzJhPUGLkKTxVPqhfQ4hU+/UldUBmvoKSEI3AkzqgMXQIJTcrJw6TkyY8eCwx70GvbojbR8fdSSipA7aazV1XE4+Q8tkY+QclvyYhWoGHe8mWoOQVsBV/X3MptzXPuLN58Y+1KZS8x0xPsmn31su33EtEp4M2XoAH74BFNTLwX3r6ai4+ADZygTsG+bc7OaaJ0HZVy4pKU39tGEEQBEHwIR4AcGSWQcJx85UAAAAASUVORK5CYII=" alt="apple-icon">Continue with Apple</button>
+                        <button class="btn btn-light-hover rounded-pill w-100 d-flex align-items-center justify-content-center fw-light" data-aos="fade-up"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALDSURBVHgB7ZZNaBNBFMffJLZVpFopVUqCiVAUlWBiQFCEJMVDPBV6UHMyEXvtTRGphlqRqgfxJHhp6EGIeohGMGJjejF4kDYqtmilLFVRU7WtiTZpsju+Tajsrimd2YBe9gfJzsebnf++eW9mAAwMDAwMDOqBQB1MdXQ0NVs2HDebqYdQcoAC2D983Yw9dBL/3khA7rlfJSJQB7oFfu90BURKrmOxTdleFahCkAD69Qo1gQ5mfXuvoLhbWnErYMdJhsYchy+ADrgFzvpc/fg4BZwQoOdeOvz7gRMzj/FSEoLmjaVrpbct8LcAmMc4fPZjcb1AqoGjNhIh5HydeACcrOExRneHG/d8q5R/xW1VYQRmRGI6uSX5/LHSdtzhD2JfmFKwo/dOOCceRUAHzEkiew+Nh/7UX7TCYtwmlKjkax/NCLXGjDv9dvSc11VHJjMLLI1ADK27lG3l7NrQukAhomw72Pfeu9q7JInMpy9ZM8AA8xLjHrdd+TVYFrTiKojmFKwCBr6Aj23AAHMWYzztVDdUJtGFvKGz2uraB/8lPB4UlHXMTifohZAJVlNmgRKFtKapZSzRekhrR6gUUv5wipjWhkp0ChhhzmIxCT14pt5crseLNriYd89IouTJBGJCrTHeM5/sJUJTRBNzEgpPD1ojwACzB01FGMbozi6LG8i75WDfSsymlPN2d1Brb7nR1ynWEIdjBFZxMly3mfITOHK/YIvK4mogYGwJ07kGVEEwPmnLptw+sH45pjLi8R63QBlntPsyJszplfqnc42qulIkpXTg6aDlPHDAdVmQ+Xx3cqT96C4TrpWnVv/ckvqVhaaPUGqYg+b87qso7ixwovvCKscdDg6DJsa0HsRlz4JY7l3ouRMFHdR15ZeRhZqAdOH67aB42sgC5WMQy2n08mjbz4Xhd70Pi2BgYGBgYPBf+A1z6fg6tb89UQAAAABJRU5ErkJggg==" alt="google-icon">Continue with Google</button>
+                        <div class="d-flex justify-content-center align-items-center py-11" data-aos="fade-up">
+                            <div class="deco-line-white bg-secondary"></div>
+                            <span class="text-light mx-1">or</span>
+                            <div class="deco-line-white bg-secondary"></div>
+                        </div>
+                        <form action="#" class="needs-validation" novalidate data-aos="fade-up">
+                            <div class="form-floating mb-2 mb-md-5">
+                                <input type="email" class="form-control" name="sign-up-email" id="sign-up-email" placeholder="EMAIL" required>
+                                <label for="sign-up-email" class="text-primary-600 fw-bold">EMAIL</label>
+                            </div>
+                            <div class="form-floating mb-2 mb-md-5">
+                                <input type="password" class="form-control" name="sign-up-password" id="sign-up-password" placeholder="密碼" required>
+                                <label for="sign-up-password" class="text-primary-600 fw-bold">密碼</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary-400 py-2 mb-2 d-flex align-items-center justify-content-center w-100"><span class="material-symbols-outlined me-1">point_scan</span>建立帳號</button>
+                            <div class="d-flex justify-content-end">
+                                <a href="sign-up.html" class="link-light-hover text-decoration-underline fw-light">忘記密碼</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-light">
+<div class="container py-11">
+    <div class="row align-items-center">
+        <div class="col-12 col-lg-5 mb-2 mb-lg-0">
+            <h3 class="font-shrikhand fs-4">ALPHABOX+</h3>
+            <p class="ls-1 fw-bold d-none d-lg-block">Copyright © 2023 Hexschool.</p>
+        </div>
+        <div class="col-12 col-lg-2 d-flex justify-content-lg-center">
+            <span class="material-symbols-outlined fs-2">emergency</span>
+        </div>
+        <ul class="col-12 col-lg-5 list-unstyled d-flex flex-column flex-lg-row justify-content-lg-end">
+            <li><a href="about-us.html" class="link-hover w-100 d-block py-1 p-lg-3">關於我們</a></li>
+            <li><a href="product.html" class="link-hover w-100 d-block py-1 p-lg-3">產品資訊</a></li>
+            <li><a href="faq.html" class="link-hover w-100 d-block py-1 p-lg-3">常見問題</a></li>
+            <li><a href="contact-us.html" class="link-hover w-100 d-block py-1 p-lg-3">聯絡我們</a></li>
+        </ul>
+        <p class="ls-1 d-lg-none fw-bold">Copyright © 2023 Hexschool.</p>
+    </div>
+</div>
+</footer>        
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+
+              form.classList.add('was-validated')
+            }, false)
+          })
+      })()
+        </script>
+    </body>
+</html>
