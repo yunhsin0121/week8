@@ -21,6 +21,11 @@
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    -webkit-animation-name: circle;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
 }
 .transition-2x{
     transition:width ease-in 0.5s;
