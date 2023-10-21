@@ -1,16 +1,16 @@
 @keyframes circle{
-    0%{
+    from{
         transform:rotate(0deg);
     }
-    100%{
+    to{
         transform:rotate(360deg);
     }
 }
 @-webkit-keyframes circle{
-    0%{
+    from{
         -webkit-transform:rotate(0deg);
     }
-    100%{
+    to{
         -webkit-transform:rotate(360deg);
     }
 }
