@@ -7,4 +7,14 @@
 @mixin radial-gradient($start-color: $primary, $end-color: $secondary) {
     background-image: radial-gradient(50% 50% at 50% 50%, $start-color 0%, $end-color 100%);
 }
+@mixin pad{
+    @media (max-width:997px) {
+        @content
+    }
+};
+@mixin mobile{
+    @media (max-width:767px) {
+        @content
+    }
+};
  
